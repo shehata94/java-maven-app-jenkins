@@ -37,6 +37,7 @@ pipeline {
         stage("build and push image") {
             steps {
                 script {
+                    echo "building the application 2..."
 //                     buildImage 'kimohero/demo-app:jma-3.0'
 //                     dockerLogin()
 //                     dockerPush 'kimohero/demo-app:jma-3.0'
